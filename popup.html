@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
   <body>
-    <script src="extractor.js"></script>
+    <div class="container">
+      <!-- Copy All Button -->
+      <button id="copyAllButton" class="btn btn-primary btn-sm mb-2">Copy All to Clipboard</button>
+      <div id="suggestionsBox" class="list-group mt-3"></div>
+    </div>
+    <script src="popup.js"></script>
   </body>
 </html>
